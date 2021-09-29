@@ -1,0 +1,139 @@
+  .heading {
+    color: sienna;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 0px 2px cyan;
+    margin: 70px 0;
+  }
+  .imd_div {
+    display: flex;
+    justify-content: center;
+    float: left;
+  }
+  .img_div img {
+    width: 250px;
+    height: 250px;
+  }
+  h1 {
+    color: gray;
+    text-transform: capitalise;
+    font-weight: 500;
+    text-align: center;
+    font-style: italic;
+  }
+  .input {
+    text-align: center;
+    margin: 20px 40%;
+    padding: 20px 20px;
+    font-size: larger;
+  }
+  .box {
+    background-color: cyan;
+    margin: 20px 30%;
+    padding: 20px 20px;
+    border-radius: 20px;
+  }
+  body {
+    background-color: lightcyan;
+  }
+  .navbar {
+    background-color: #fff;
+    padding: 20px 0 20px 0;
+  }
+  
+  .PhoneInput {
+    margin: 0px 34%;
+  }
+  .PhoneInputCountry {
+    margin: 28px;
+  }
+  input {
+    text-align: center;
+    margin: 20px;
+    padding: 20px 20px;
+    font-size: larger;
+  }
+  .button {
+    background-color: rgb(208, 223, 223);
+    width: 100px;
+    height: 30px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: gray;
+    border: 0.5mm solid black;
+    cursor: pointer;
+    margin: 20px 47%;
+  }
+  .showcards {
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%; 
+      height: auto;
+  }
+  .showcard {
+    background-color: #fff;
+    width: 22.25%;
+    margin: 20px 5%;
+    border-radius: 12px;
+    box-shadow: 0 13px 10px -7px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+    float: left;
+    position: relative;
+    overflow: hidden;
+  }
+  .showcard:hover {
+    box-shadow: 0 30px 18px -8px rgba(10, 10, 10, 0.671);
+    transform: scale(1.05, 1.05);
+  }
+  
+  .card_img {
+    width: 100%;
+    height: 235px;
+    border-radius: 12px 12px 0 0;
+  }
+  .card_info {
+    background-color: #fff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 16px 24px 24px 24px;
+  }
+  .card_category {
+    text-transform: capitalize;
+    color: gray;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    font-style: oblique;
+  }
+  .card_title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+.overview{
+      position:absolute;
+      left:0;
+      right:0;
+      bottom:0;
+      background-color: #fff;
+      padding: 1rem;
+      max-height: 100%;
+      transform: translateY(101%);
+      transition: transform 0.3s ease-in;
+  }
+  .showcard:hover .overview{
+    transform: translateY(0);
+  }
+  @media (max-width:450px) {
+    .showcard {
+        background-color: #fff;
+        width: 70.25%;
+        margin: 20px 5%;
+        border-radius: 12px;
+        box-shadow: 0 13px 10px -7px rgba(0, 0, 0, 0.1);
+        transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+        float: left;
+      }
+  }
